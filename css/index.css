@@ -1,0 +1,37 @@
+.calc-section {
+    width: 100%;
+    height: 350px;
+    background-color: gray;
+    text-align: center;
+    padding-top: 50px;
+}
+.calc {
+    background-color: #e86190;
+    width: 200px;
+    height: 300px;
+    margin: auto;
+    font-size: 0;
+}
+
+.button {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding: 0px;
+    line-height: 50px; 
+    font-size: 14px;
+}
+
+.button:hover {
+    background: #eec9f2;
+    color: #ffffff;
+}
+    
+.calc-display {
+    display: inline-block;
+    width: 180px;
+    padding: 10px;
+    font-size:16px;
+    border-width: 0px;
+}
